@@ -18,4 +18,12 @@ print(len(odd))
 print(odd.intersection(power))
 print(len(odd.union(power)))
 
+print('=' * 40)
+print(odd.intersection_update(power))
+print(odd)
+
+power_frozen = frozenset(power)
+
+
+
 
